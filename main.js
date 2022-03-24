@@ -1,6 +1,6 @@
 import BuilderFaker from "./javascript/builder.js";
-import { faker } from '@faker-js/faker';
 
-const name=faker.word.random();
+const builder=new BuilderFaker(5,["id","name","email","this arg doesn't exist","snake","firstName","fish"]);
 
-const builder=new BuilderFaker(["id","name","email"]);
+
+console.table(builder.object);
