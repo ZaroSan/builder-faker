@@ -43,10 +43,7 @@ export default class BuilderFaker {
             });
           });
           //default random word for unexisting method
-          if (
-           ( Object.keys(this.savedMethods).length !==
-            Object.entries(this.arrayOfKey).length)
-          ) {
+          if (!hasSaved) {
             this.savedMethods[element]=['random','word'];
             obj[element] =
             faker[this.savedMethods[element][0]][
