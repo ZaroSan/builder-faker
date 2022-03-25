@@ -1,8 +1,4 @@
-<div align="center">
-  [![npm version](https://badgen.net/npm/v/builder-faker)](https://www.npmjs.com/package/builder-faker)
-    [![npm version](https://badgen.net/npm/v/@faker-js/faker)](https://www.npmjs.com/package/@faker-js/faker)
-
-</div>
+[![npm version](https://badge.fury.io/js/builder-faker.svg)](https://badge.fury.io/js/builder-faker)
 
 #Builder-Faker 
 
