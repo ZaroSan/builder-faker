@@ -1,6 +1,6 @@
 import { faker } from "@faker-js/faker";
 
-export default class BuilderFaker {
+module.exports= class BuilderFaker {
   constructor(count, arrayOfKey) {
     this.arrayOfKey = arrayOfKey;
     this.count = count;
