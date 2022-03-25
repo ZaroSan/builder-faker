@@ -18,12 +18,21 @@ import BuilderFaker from "builder-faker/builder";
 
 ## How to use it?
 ```js
-const yourvar=new BuilderFaker(numberOfObjects,arrayOfKeys);
+const yourBuilder=new BuilderFaker(numberOfObjects,arrayOfKeys);
 //get your array
-yourvar.object;
+yourBuilder.object;
 //exemple
 const builder=new BuilderFaker(5,["id","name","email","this arg doesn't exist","snake","firstName","fish"]);
 
 console.log(builder.object);
-````
+```
+
 The class will search some methods what matches with the keys passed. If the key doesn't exist, it will take a random word
+
+### Tips
+
+```js
+yourBuilder.savedMethods
+```
+saveMethods return an array of each method used for each key
+
