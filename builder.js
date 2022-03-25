@@ -2,8 +2,14 @@ import { faker } from "@faker-js/faker";
 
 export default class BuilderFaker {
   constructor(count, arrayOfKey) {
+    if(count <=0){
+      this.count = 1;
+    }
+    else{
+      this.count = count;
+    }
     this.arrayOfKey = arrayOfKey;
-    this.count = count;
+   
     this.response = [];
     this.savedMethods = {};
   }
