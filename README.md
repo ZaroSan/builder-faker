@@ -1,5 +1,7 @@
 <div align="center">
   [![npm version](https://badgen.net/npm/v/builder-faker)](https://www.npmjs.com/package/builder-faker)
+    [![npm version](https://badgen.net/npm/v/@faker-js/faker)](https://www.npmjs.com/package/@faker-js/faker)
+
 </div>
 
 #Builder-Faker 
@@ -33,9 +35,8 @@ The class will search some methods what matches with the keys passed. If the key
 
 ###Exemple of outputs
 
-index   id      name        email                        this arg doesn't exist snake                   firstName   fish
-0	    58254	'Aubree'	'Imogene63@yahoo.com'	    'Guilder'	            'Horseshoe pitviper'	'Sid'	    'Round sardinella'
-1	    69599	'Alejandra'	'Leann54@gmail.com'	        'Mobility'	            'Flat-nosed pitviper'	'Davin'	    'Rainbow trout'
-2	    37517	'Rahul'	    'Brionna66@gmail.com'	    'Account'	            'Pit viper'	            'Lillian'	'Japanese cockle'
-3	    1456	'Karlie'	'Josefina48@gmail.com'	    'AGP'	                'Common adder'	        'Antwon'	'Asian swamp eel'
-4	    96032	'Ryan'	    'Callie.Crist@gmail.com'	'Toys'	                'Many-horned adder'	    'Ramon'	    'Japanese cockle'
+index   id      name        this arg doesn't exist  snake                   
+0	    58254	'Aubree'    'Guilder'	            'Horseshoe pitviper'	
+1	    69599	'Alejandra' 'Mobility'	            'Flat-nosed pitviper'	
+2	    37517	'Rahul'     'Account'	            'Pit viper'	        
+
