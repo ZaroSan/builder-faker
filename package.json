@@ -1,7 +1,7 @@
 {
   "name": "builder-faker",
-  "version": "1.0.8",
-  "description": "",
+  "version": "1.0.9",
+  "description": "Create a mock with faker",
   "main": "builder.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -15,6 +15,10 @@
     "array"
   ],
   "author": "ZaroSan",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ZaroSan/builder-faker.git"
+  },
   "license": "ISC",
   "dependencies": {
     "faker": "^6.6.6"
