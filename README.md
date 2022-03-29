@@ -34,5 +34,5 @@ The class will search some methods what matches with the keys passed. If the key
 ```js
 yourBuilder.savedMethods
 ```
-saveMethods return an array of each method used for each key
+saveMethods return an array of each methods used for each key
 

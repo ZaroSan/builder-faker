@@ -1,15 +1,22 @@
 {
   "name": "builder-faker",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "",
   "main": "builder.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ["faker","builder","generate","random","lazy","array"],
+  "keywords": [
+    "faker",
+    "builder",
+    "generate",
+    "random",
+    "lazy",
+    "array"
+  ],
   "author": "ZaroSan",
   "license": "ISC",
-  "devDependencies": {
-    "@faker-js/faker": "^6.0.0"
+  "dependencies": {
+    "faker": "^6.6.6"
   }
 }
